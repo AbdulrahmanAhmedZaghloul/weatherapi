@@ -1,0 +1,104 @@
+  .bg-blacklight,body,input{
+    background-color: #1e202b;
+  }
+  .york-image {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-image: 
+    radial-gradient(farthest-corner, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+     url('../image/istockphoto-1451754987-170667a.webp');
+}
+
+.input-crolr input {
+    background: #1e202b;
+}
+
+.input-crolr::placeholder {
+    color: #1e202b;
+}
+
+.end-5 {
+    right: 1.4rem;
+}
+
+.position-laft {
+    left: 7%;
+}
+
+
+  .no-border{
+    border: none !important;
+    
+  }.text-whi,input{
+    color: white !important;
+  }
+    a.activee {
+      color: rgb(74, 174, 251) !important;
+    border: rgb(74, 174, 251) 1px solid;
+    border-radius: 30px;
+    }
+    li a.act:hover{
+    color: rgb(74, 174, 251) !important;
+    border: rgb(74, 174, 251) 1px solid;
+    border-radius: 30px;
+    }
+    .day{
+      background-color: #2d303d;
+    }
+    .first-day{
+      background-color: #323544;
+    }
+    .day2{
+      background-color: #222530;
+    }
+    .second-day{
+      background-color: #262936;
+    }
+    .day3{
+      background-color: #2d303d;
+    }
+    .third-day{
+      background-color: #323544;
+    }
+    .fs-10{
+      font-size: 80px;
+    }
+    
+    .fs-7{
+      font-size: 12px;
+    }
+    
+    .w-30{
+      width: 30%;
+    }
+    .start-90{
+      left: 95%;
+      
+    }
+    .start-91{
+      right:-6%;
+      
+    }
+   
+    .xsdc{
+        margin-top: -10rem;
+    }
+    @media (max-width:992px) {
+    footer{
+        margin-top: 550px;
+  
+      }
+    }
+    @media (max-width:762px) {
+      .content{
+        width: 90% !important;
+      }
+      
+      .start-90{
+        left: 82%;
+      }
+      .w-sm-100{
+        width: 100% !important;
+      }
+    }

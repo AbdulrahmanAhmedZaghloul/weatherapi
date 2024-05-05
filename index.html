@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather</title>
+ <link rel="icon"  href="image/logo.png"> 
+  </head>
+  <body class="overflow-x-hidden">
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-blacklight p-lg-5 px-lg-5"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex" href="#">
+          <img src="image/logo.png" alt="weather logo" width="100" />
+          <p class="text-white fs-6 ms-2">
+            Weather <br />
+            tagline goes here
+          </p>
+        </a>
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul
+            class="navbar-nav me-lg-5 text-center w-100 d-flex justify-content-end"
+          >
+            <li class="nav-item active">
+              <a class="nav-link px-3 me-3 activee text-white" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 me-3 act text-white" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 me-3 act text-white" href="#"
+                >Live cameras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 me-3 act text-white" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 me-3 act text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="homesec" >
+        <header class="york-image w-100">
+            <div class=" input-crolr  pt-3 pb-4 container">
+                <div class="position-relative">
+                    <input type="text"  id="searchCity" class="w-100 px-3 rounded-5 border-0 py-3"
+                        placeholder="Find Your Location" aria-label="Recipient's username"
+                        aria-describedby="button-addon2">
+
+                    <div id="button-addon2" class="position-absolute z-3 top-50 end-5 translate-middle-x translate-middle-y">
+                        <button  class="z-3 btn text-white rounded-5 px-5 bg-opacity-75  bg-info text-black " type="button"
+                            >Find</button>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <div class="content xsdc w-75 mx-auto rounded d-lg-flex justify-content-center gy-5 ">
+            <div class="col-lg-4 " id="firstDay">
+              <div class="first-day rounded-start-4 text-white">
+                <div class="day d-flex w-100 py-2 px-3 m-0 mb-3 w-100">
+                  <p id="day" class="me-auto ">Tuesday</p>
+                  <p id="dayDate" class="me-2 ">6 </p>
+                  <p id="monthDate"> April</p>
+                </div>
+                <h2 id="Name" class="fs-5 my-4  text-secondary ">Cairo</h2>
+                <div class="d-flex  justify-content-between">
+                  <p id="Degree" class="fs-10 ms-3 fw-bold">23<span>&deg;C</span></p>
+                  <img id="Image" src="images/116.png" width="100" alt=""/>
+                </div>
+                <span id="Status" class="text-info fs-7 ">Partly cloudy</span>
+                <div class="d-flex mt-2 p-2 fs-7  mt-3 ">
+                    <div class="d-flex me-4 ">
+                        <img src="images/icon-umberella.png" width="15" alt=""> 
+                    <p id="persent" class="ms-2 ">20%</p>
+                    </div>
+                    <div class="d-flex me-4 ">
+                        <img src="images/icon-wind.png" width="15" alt="">
+                    <p id="persent1" class="ms-2 ">18km/h </p>
+                    </div>
+                    <div class="d-flex me-4 ">
+                        <img src="images/icon-compass.png" width="15" alt="">
+                    <p id="persent2" class="ms-2 ">East</p>
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 " >
+              <div class="second-day py-3 h-100  pt-0 text-center  text-white">
+                <div class="day2   py-2 mb-3">
+                  <p id="secDay">Wednesday</p>
+                  
+                </div>
+                <img id="secImage"  src="images/113.png" class="mt-4" width="50" alt=""/>
+                  <p id="secMaxTemp" class="fs-5   fw-bold  ">27.3<span>&deg;C</span></p>
+                  <p id="secMinTemp" class=" text-secondary ">14.8<span>&deg;C</span></p>
+                
+                <span id="secWind" class="text-info fs-6 ">Sunny</span>
+                
+              </div>
+            </div>
+            <div class="col-lg-4 " >
+              <div class="third-day py-3 h-100  pt-0 text-center rounded-end-4  text-white">
+                <div class="day3   py-2 mb-3">
+                  <p id="thirdDay">Thursday</p>
+                </div>
+                <img id="thirdImage" src="images/113.png" class="mt-4" width="50" alt=""/>
+                  <p id="thirdMaxTemp" class="fs-5   fw-bold  ">26.3<span>&deg;C</span></p>
+                  <p id="thirdMinTemp" class="text-secondary ">14.8<span>&deg;C</span></p>
+                
+                <span id="thirdWind" class="text-info fs-6 ">Sunny</span>
+                
+              </div>
+            </div>
+            
+          </div>
+    </main>
+  <footer class="second-day p-5" >
+        <div class="w-75 w-sm-100 mx-auto  d-lg-flex justify-content-between ">
+            <div class="position-relative w-75 w-sm-100  ">
+                <input
+                  type="text"
+                  class="no-border py-3 w-100 rounded-5 text-white "
+                  placeholder="    Enter your email to subscribe..."
+                />
+                <button
+                  type="submit"
+                  class="btn btn-info px-4 py-2 rounded-5 text-white position-absolute start-91 top-50 translate-middle"
+                >
+                  Subscribe
+                </button>
+              </div>
+              <div class="social-links mt-2 text-center  ">
+								<a href="#"><i class="fa-brands fa-facebook fs-3 me-2  "></i></a>
+								<a href="#"><i class="fa-brands fa-twitter fs-3 me-2 "></i></a>
+								<a href="#"><i class="fa-brands fa-google-plus fs-3 me-2 "></i></a>
+								<a href="#"><i class="fa-brands fa-pinterest fs-3 me-2 "></i></a>
+							</div>
+        </div>
+        <p class="text-white w-75 mx-auto mt-4 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        
+    </footer>  
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
